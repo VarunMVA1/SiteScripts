@@ -40,4 +40,4 @@ try {
 catch {
     # first time adding theme
 }
-Add-SPOTheme -Name $themeName -Palette $palette -IsInverted:$false
+Add-SPOTheme -Name $themeName -Palette $palette -IsInverted:$false -Overwrite
